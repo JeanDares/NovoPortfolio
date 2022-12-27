@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
@@ -15,18 +16,7 @@ $(document).ready(function(){
          $('html').animate({scrollTop: 0});
      });
 
-     var typed = new Typed(".typing", {
-         strings:["Desenvolvedor Frontend"],
-         typeSpeed:100,
-         backSpeed:60,
-         loop:true
-     });
-     var typed = new Typed(".typing-2", {
-        strings:["Desenvolvedor Frontend"],
-        typeSpeed:100,
-        backSpeed:60,
-        loop:true
-    });
+    
 
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
@@ -53,3 +43,4 @@ $(document).ready(function(){
         }
     });
 });
+
