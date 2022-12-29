@@ -21,7 +21,7 @@ html{
     font-family: 'Ubuntu', sans-serif;
     z-index: 999;
     transition: all 0.3s ease;
-    background-color: rgba(54, 44, 44, 0.527);
+    background-color: #0a4d31;
 }
 .navbar.sticky{
      background: #00804b;
@@ -95,8 +95,7 @@ html{
     font-size: 20px;
     font-weight: 200;
     margin: auto 29px;
-    
-    
+    width: 550px;       
 }
 .home .home-content .text-3 span{
     color:#00804b ;
@@ -560,6 +559,18 @@ footer span a:hover{
         width: 350px;
         height: 350px;
     }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+      
+    }
+
+    .home-content-2 {
+        margin-top: 60px;
+        
+    }
+    
 }
 @media (max-width: 991px){
     .navbar .max-width{
@@ -644,6 +655,14 @@ footer span a:hover{
     .services .serv-content .card {
         width:100%;
     }
+
+    .home{
+        height: auto;
+    }
+    .home-content-2{
+        width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: 515px) {
@@ -653,4 +672,12 @@ footer span a:hover{
 
     .contact .title::after {}
 
+    .home{
+        height: auto;
+    }
+
+    .home-content-2{
+        width: auto;
+        height: auto;
+    }
 }
